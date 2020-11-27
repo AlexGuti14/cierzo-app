@@ -1,0 +1,68 @@
+.general{
+    text-align: center;
+}
+
+.imagen{
+    margin-top: 20px;
+	width: 200px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.usuario{
+    text-align: center;
+}
+
+.funciones{
+    display: grid;
+    grid-row-gap: 10px;
+    text-align: center;
+	margin-top: 10px;
+	margin-bottom: 2em;
+}
+
+h3{
+    margin-bottom: 0;
+}
+
+#correo{
+    margin-bottom: 0;
+    color: grey;
+}
+
+p{
+    display: inline-block;
+    width: 80%;
+    font-size: 15px;
+}
+
+button{
+    margin-left: auto;
+    margin-right: auto;
+    width: 210px;
+    border: 1px solid black;
+}
+
+input{
+    margin-left: auto;
+    margin-right: auto;
+    width: 210px;
+    height: 20px;
+}
+
+#confirmar{
+    background-color: green;
+    border: 1px solid black;
+}
+
+#logout{
+    margin-top: 20px;
+    color: rgb(200, 0, 0);
+    background-color: white;
+    border: 1px solid black;
+}
+
+#eliminar{
+    background-color: rgb(200, 0, 0);
+    border: 1px solid black;
+}

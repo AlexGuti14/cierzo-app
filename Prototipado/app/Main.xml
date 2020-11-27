@@ -1,0 +1,82 @@
+﻿<project version="2.9" name="Mockup Cierzo" ID="6FF7A17E-DFFB-4FAA-A85C-71520C05C299">
+  <params>
+    <pageParam version="5.3" minAllowVersion="5.3"/>
+    <projectParam version="2.9" minAllowVersion="2.9" platform="MtMobile" orientation="MoPortrait" mobileScreenScale="1.77777779102325" mobileType="mmtIOS" pageSize="(375,667)" backgroundColor="4291552767" fontSize="14" fontFamily="Segoe UI" projectType="ptPersonalProject" isShowTitleIndex="False"/>
+    <previewParam version="1.0"/>
+    <colorParam version="1.0"/>
+  </params>
+  <pages>
+    <page name="Inicio de sesión" ID="A7EAE09F-569C-4ACA-9A52-C0CC74192566" expanded="True" code="jiPy3aHZ6Y" thumbCode="jiPy3aHZ6Y" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="1CF2E30306F0CC296A8E3CA7A03EB8EA.png"/>
+        <image key="E9996CD20A249418A094202D54674E78.png"/>
+      </images>
+    </page>
+    <page name="Registro" ID="A851D9C7-39C3-4179-BDF5-89F19B7DB63A" expanded="True" code="hy3Bs8eIbA" thumbCode="DQUxpfmWfn" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="1CF2E30306F0CC296A8E3CA7A03EB8EA.png"/>
+        <image key="E9996CD20A249418A094202D54674E78.png"/>
+      </images>
+    </page>
+    <page name="Home" ID="8CC2ADB7-06BE-4CB1-9AD3-A90813821D8A" expanded="True" code="j8ve92r1ZT" thumbCode="Qn8OAFIqcO" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="Rankings" ID="14DD1B40-C509-4067-8CFC-F660654214A2" expanded="True" code="P3jGfDOuMC" thumbCode="IyjKoOJxO8" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E4FB71AFFE766E65E60C0AF87E7D56B1.jpg"/>
+        <image key="2F86246FD58111C2B994F583B477DF45.jpg"/>
+        <image key="6E2DFB0245220F4B1854AC944CCCF3A5.jpg"/>
+        <image key="233E97D32D03AFA4F69AE3B77A4F8C2B.jpg"/>
+      </images>
+    </page>
+    <page name="InfoBarrio" ID="6DB0085D-D723-4AFA-8C85-407EDD736E0C" expanded="True" code="1JjmJ1znmj" thumbCode="1JjmJ1znmj" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="BA013BAD16C676B6765098A59E2F44EE.png"/>
+        <image key="6E2DFB0245220F4B1854AC944CCCF3A5.jpg"/>
+        <image key="DD947F950DDE83858F16C4922947CC2E.png"/>
+      </images>
+    </page>
+    <page name="Perfil" ID="ECB0E9C6-080B-44CD-9E80-5CA56C177441" expanded="True" code="wp9jaPv2cA" thumbCode="wp9jaPv2cA" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="467605F5F90D9FF65132C1A6EF883F26.svg"/>
+      </images>
+    </page>
+    <page name="Perfil Administrador" ID="51DA283A-5619-4654-BAC2-F847F47952A3" expanded="True" code="D8qPobECYT" thumbCode="D8qPobECYT" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="467605F5F90D9FF65132C1A6EF883F26.svg"/>
+      </images>
+    </page>
+    <page name="Estadísticas 1" ID="E2F5EB67-216F-4C25-9710-9E07FA17F01F" expanded="True" code="drVbyx56x4" thumbCode="jqLrnma8CR" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="Estadísticas 2" ID="7154F751-A15A-4AE4-B268-E2D49E469288" expanded="True" code="VTstp8Nlys" thumbCode="VTstp8Nlys" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="669688EF32A24C30394689A38E455E74.png"/>
+        <image key="D64D0A0CC9F165C07A7F893AAB88EC74.png"/>
+      </images>
+    </page>
+    <page name="Estadísticas 3" ID="C12FC99E-EF05-40F3-95ED-C2F1DCCDF4FC" expanded="True" code="dpqjgvs6NC" thumbCode="dpqjgvs6NC" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="669688EF32A24C30394689A38E455E74.png"/>
+        <image key="D64D0A0CC9F165C07A7F893AAB88EC74.png"/>
+      </images>
+    </page>
+    <page name="Búsqueda usuarios" ID="33FC18E7-46F2-47F9-AF61-BB7F1B3B8DDE" expanded="False" code="3Sn5RJ4e9L" thumbCode="3Sn5RJ4e9L" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True"/>
+  </pages>
+  <trash>
+    <page name="Registro" ID="F687EC49-2A9E-4701-A6F9-89843C211840" expanded="True" code="itvGGLRTMi" thumbCode="4sR5IFD7Cf" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="Estadísticas 2" ID="D8F3A8B0-210A-4AA1-91BC-8257F715621E" expanded="True" code="ox1LMJdUxH" thumbCode="E3B5562tR1" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="Estadísticas 3" ID="1235D461-7D8A-44C4-AC45-3C458FDBB6E5" expanded="True" code="vYkvUJGab7" thumbCode="MdGRDruMgv" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True"/>
+  </trash>
+  <deletes/>
+  <masters/>
+  <images>
+    <image key="BA013BAD16C676B6765098A59E2F44EE.png"/>
+    <image key="2F86246FD58111C2B994F583B477DF45.jpg"/>
+    <image key="E9996CD20A249418A094202D54674E78.png"/>
+    <image key="233E97D32D03AFA4F69AE3B77A4F8C2B.jpg"/>
+    <image key="1CF2E30306F0CC296A8E3CA7A03EB8EA.png"/>
+    <image key="D64D0A0CC9F165C07A7F893AAB88EC74.png"/>
+    <image key="467605F5F90D9FF65132C1A6EF883F26.svg"/>
+    <image key="E4FB71AFFE766E65E60C0AF87E7D56B1.jpg"/>
+    <image key="669688EF32A24C30394689A38E455E74.png"/>
+    <image key="6E2DFB0245220F4B1854AC944CCCF3A5.jpg"/>
+    <image key="DD947F950DDE83858F16C4922947CC2E.png"/>
+  </images>
+</project>

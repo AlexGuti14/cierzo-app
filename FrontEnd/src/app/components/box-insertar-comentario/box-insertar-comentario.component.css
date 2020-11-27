@@ -1,0 +1,17 @@
+mat-form-field {
+	width: 100%;
+	margin-bottom: -1.5em;
+}
+
+form{
+	display: flex;
+	margin-top: 1em;
+}
+
+button{
+	margin-left: 1em;
+	height: fit-content;
+	text-align: center;
+	padding: 0;
+	margin-top: 1em;
+}

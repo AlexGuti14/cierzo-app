@@ -1,0 +1,72 @@
+body{
+	display: block;
+	text-align: center;
+/* 	background-color: rgb(203,229,255);
+ */	margin: 0;
+	padding: 0;
+	height: auto;
+}
+div {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	max-width: 25em;
+}
+
+form{
+	padding-top: 10px;
+	margin-bottom: 2em;
+}
+
+p{
+	padding-top: 1em;
+}
+
+mat-form-field{
+	width: 100%;
+	text-align: left;
+	border-width: 50px;
+}
+
+button{
+	background-color: steelblue;
+	color: white;
+	border-color: white;
+	border-width: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+button.google{
+	margin-bottom: 4em;
+}
+
+footer {
+	background-color: steelblue;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+img {
+	display: block;
+	padding-top: 5em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	max-width: 150px;
+}
+
+h5 {
+	width: 100%;
+	color: red;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#entrar{
+	margin-bottom: 4em;
+}

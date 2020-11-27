@@ -1,0 +1,3 @@
+node_modules/
+#api_bd/config/credentials.js
+*.log

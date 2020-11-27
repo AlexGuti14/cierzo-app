@@ -1,0 +1,3 @@
+VirusFive: git pull && mongod
+VirusFive\BackEnd: npm install && npm start
+VirusFive\FrontEnd: npm install && ng serve

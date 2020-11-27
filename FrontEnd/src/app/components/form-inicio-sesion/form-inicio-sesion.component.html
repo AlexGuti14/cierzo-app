@@ -1,0 +1,30 @@
+<head>
+	<title>Formulario de inicio de sesión</title>
+</head>
+
+<body>
+	<div>
+		<img class="logo" src="../assets/images/logocierzo.png" alt="Cierzo"><br>
+		<p><b><font color ="black">Inicia sesión en CIERZO</font></b></p>
+		<form [formGroup]="usuario" (ngSubmit)="onSubmit()">
+			<mat-form-field appearance="fill">
+				<mat-label>Email</mat-label>
+				<input matInput type="text" formControlName="email" id="mail">
+			</mat-form-field>
+			<mat-form-field appearance="fill">
+				<mat-label>Contraseña</mat-label>
+				<input matInput type="password" formControlName="password" id="contra">
+			</mat-form-field>
+			<div *ngIf="showErrorMessage">
+				<h5 id="mensajeError">Usuario o contraseña incorrectos</h5>
+			</div>
+			<button mat-button id="botonlogin">Entra</button>
+		</form>
+		<button class="google" mat-button (click)="loginGoogle()">
+			<img src="../../../assets/google_signin_buttons/web/1x/btn_google_signin_light_normal_web.png" alt="Accede con Google">
+		</button>
+		<footer>
+			<button mat-button routerLink="/nuevo-usuario" routerLinkActive="active">¿Todavía no tienes cuenta? Registrate aquí</button>
+		</footer>
+	</div>
+</body>

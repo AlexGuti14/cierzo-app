@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+}
+
+button{
+	border: none;
+	background: none;
+}
+
+#opcionesAdmin {
+	color: grey;
+}
+
+#pulgarGris{
+	color: rgb(212, 212, 212);
+}
+
+#pulgarRojo{
+	color: red;
+}
+
+#pulgarVerde{
+	color: rgb(0, 170, 0);
+}
+
+.conjuntoPulgares{
+	display: flex;
+	margin-left:auto;
+	margin-right: 0;
+	position: relative;
+}
+
+.cabecera{
+	display: flex;
+}
+
+.nombreUsuario{
+	margin-left: 0;
+	margin-right: auto;
+}

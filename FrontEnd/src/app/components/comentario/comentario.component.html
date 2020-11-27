@@ -1,0 +1,13 @@
+<body>
+	<div class="cabecera">
+		<div class="nombreUsuario">
+			<h4>{{nombreUsuario}}</h4>
+		</div>
+		<h4>
+			<button *ngIf="esAdmin == true" (click)="verOpcionesAdmin()">
+				<i id="opcionesAdmin" class="fas fa-ellipsis-h"></i>
+			</button>
+		</h4>
+	</div>
+	<p class="textoComentario">{{comentario}}</p>
+</body>

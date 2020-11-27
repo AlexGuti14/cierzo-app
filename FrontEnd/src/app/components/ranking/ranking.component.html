@@ -1,0 +1,20 @@
+<head>
+</head>
+
+<body>
+	<div class="general">
+		<div class="filtro">
+			<mat-form-field>
+				<mat-label>Ranking por</mat-label>
+				<mat-select [(value)]="seleccionadoPorDefecto">
+					<mat-option *ngFor="let filtro of filtros" [value]="filtro.value" (click)="refrescarRanking(filtro.value)">
+						{{filtro.viewValue}}
+					</mat-option>
+				</mat-select>
+			</mat-form-field>
+		</div>
+		<div class="barrios" *ngFor="let b of listaBarrios">
+			<app-tarjeta-ranking [infoBarrio]=b></app-tarjeta-ranking>
+		</div>
+	</div>
+</body>

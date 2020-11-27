@@ -1,0 +1,31 @@
+<mat-card class="tarjeta">
+    <mat-card-header>
+        <mat-card-title *ngIf="infoUser.admin" id="tituloAdmin">
+            {{infoUser.nombre}} [Administrador]
+        </mat-card-title>
+        <mat-card-title *ngIf="!infoUser.admin" id="tituloUser">
+            {{infoUser.nombre}} [Usuario]
+        </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <div id="contenido">
+            <div class="datos">
+                <p>Email: {{infoUser.email}}</p>
+                <p>Logins totales: {{infoUser.logins}}</p>
+                <p>Último login en: {{infoUser.lastLogin}}</p>
+                <p>Cuenta creada en: {{infoUser.createdOn}}</p>
+            </div>
+            <div class="botones">
+                <div *ngIf="infoUser.banned">
+                    <button mat-raised-button color="basic" id="desbanearBut" (click)="desbanearUser()">Desbanear</button>
+                </div>
+                <div *ngIf="!infoUser.banned">
+                    <button mat-raised-button color="alert" id="banearBut" (click)="banearUser()">Banear</button>
+                </div>
+                <div>
+                    <button mat-raised-button color="warn" id="eliminarBut" (click)="eliminarUser()">Eliminar</button>
+                </div>
+            </div>
+        </div>
+    </mat-card-content>
+</mat-card>

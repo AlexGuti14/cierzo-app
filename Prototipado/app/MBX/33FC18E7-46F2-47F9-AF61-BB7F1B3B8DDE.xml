@@ -1,0 +1,221 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="8CC2ADB7-06BE-4CB1-9AD3-A90813821D8A" platform="MtMobile" defaultW="375" defaultH="667" measureW="375" measureH="667" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="20">
+    <control controlID="42A3EB2B-8E5E-4076-AC06-ABF22A61C970" controlTypeID="Panel" x="10" y="80" w="355" h="206" zOrder="0">
+      <groupChildrenDescriptors>
+        <control controlID="D76B6CA1-ECD2-4AC6-A3C8-22F4A972844F" controlTypeID="TextArea" x="58" y="10" w="240" h="43" zOrder="0">
+          <font family="HP+Simplified" displayName="HP+Simplified" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+          <text>@nombredeusuario</text>
+          <textSize>24</textSize>
+          <textAlign>HaCenter</textAlign>
+          <useDefaultTextSize>False</useDefaultTextSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="1E849BDF-EC4D-4FAF-BEC0-18CA0EB85169" controlTypeID="Button" x="58" y="97" w="240" h="39" zOrder="1">
+          <borderColor>4286644224</borderColor>
+          <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+            <link targetPageID="51DA283A-5619-4654-BAC2-F847F47952A3" linkType="ltPageLink" isApplyIncludePage="False" title="Perfil">
+              <area shape="0" alt="" ID="{5A860037-D2C3-4488-9B3B-6151749F32F6}" coords="(0,0,240,39)"/>
+            </link>
+          </links>
+          <font family="Segoe+UI" displayName="Segoe+UI_%26_Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False" useDefaultFontFamily="False"/>
+          <text>Desactivar+comentarios</text>
+          <textColor>4286644224</textColor>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+          <thickness>2</thickness>
+        </control>
+        <control controlID="F3B81186-6002-45ED-8F52-CA1BB1BCA396" controlTypeID="Button" x="58" y="152" w="240" h="39" zOrder="2">
+          <borderColor>4286644224</borderColor>
+          <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+            <link targetPageID="51DA283A-5619-4654-BAC2-F847F47952A3" linkType="ltPageLink" isApplyIncludePage="False" title="Perfil">
+              <area shape="0" alt="" ID="{5A860037-D2C3-4488-9B3B-6151749F32F6}" coords="(0,0,240,39)"/>
+            </link>
+          </links>
+          <font family="Segoe+UI" displayName="Segoe+UI_%26_Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False" useDefaultFontFamily="False"/>
+          <text>Eliminar+cuenta+@nombredeusuario</text>
+          <textColor>4286644224</textColor>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+          <thickness>2</thickness>
+        </control>
+        <control controlID="3FF998D6-FE0B-47AC-B4D3-FE961E700AFF" controlTypeID="Button" x="58" y="48" w="240" h="39" zOrder="3">
+          <borderColor>4278216192</borderColor>
+          <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+            <link targetPageID="51DA283A-5619-4654-BAC2-F847F47952A3" linkType="ltPageLink" isApplyIncludePage="False" title="Perfil">
+              <area shape="0" alt="" ID="{5A860037-D2C3-4488-9B3B-6151749F32F6}" coords="(0,0,240,39)"/>
+            </link>
+          </links>
+          <font family="Segoe+UI" displayName="Segoe+UI_%26_Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False" useDefaultFontFamily="False"/>
+          <text>Activar+comentarios</text>
+          <textColor>4278216192</textColor>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+          <thickness>2</thickness>
+        </control>
+        <control controlID="2AE7FFB7-F808-42AE-8BE8-317AD582896C" controlTypeID="Border" x="0" y="0" w="355" h="206" zOrder="4">
+          <alias>borderLayer</alias>
+        </control>
+      </groupChildrenDescriptors>
+      <thinkness>1</thinkness>
+    </control>
+    <control controlID="77140ACF-DEC1-4120-89AC-6D0E91684F3D" controlTypeID="Panel" x="10" y="296" w="355" h="206" zOrder="1">
+      <groupChildrenDescriptors>
+        <control controlID="7BEC6BAB-B503-4C4F-9398-6041E89EFBA9" controlTypeID="TextArea" x="58" y="10" w="240" h="43" zOrder="0">
+          <font family="HP+Simplified" displayName="HP+Simplified" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+          <text>@nombredeusuario</text>
+          <textSize>24</textSize>
+          <textAlign>HaCenter</textAlign>
+          <useDefaultTextSize>False</useDefaultTextSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="C1CE8AB9-9062-4F5F-BBD7-C5C5E81731C8" controlTypeID="Button" x="58" y="97" w="240" h="39" zOrder="1">
+          <borderColor>4286644224</borderColor>
+          <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+            <link targetPageID="51DA283A-5619-4654-BAC2-F847F47952A3" linkType="ltPageLink" isApplyIncludePage="False" title="Perfil">
+              <area shape="0" alt="" ID="{5A860037-D2C3-4488-9B3B-6151749F32F6}" coords="(0,0,240,39)"/>
+            </link>
+          </links>
+          <font family="Segoe+UI" displayName="Segoe+UI_%26_Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False" useDefaultFontFamily="False"/>
+          <text>Desactivar+comentarios</text>
+          <textColor>4286644224</textColor>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+          <thickness>2</thickness>
+        </control>
+        <control controlID="ED7F4F47-1203-4715-8207-2510BF00B47D" controlTypeID="Button" x="58" y="152" w="240" h="39" zOrder="2">
+          <borderColor>4286644224</borderColor>
+          <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+            <link targetPageID="51DA283A-5619-4654-BAC2-F847F47952A3" linkType="ltPageLink" isApplyIncludePage="False" title="Perfil">
+              <area shape="0" alt="" ID="{5A860037-D2C3-4488-9B3B-6151749F32F6}" coords="(0,0,240,39)"/>
+            </link>
+          </links>
+          <font family="Segoe+UI" displayName="Segoe+UI_%26_Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False" useDefaultFontFamily="False"/>
+          <text>Eliminar+cuenta+@nombredeusuario</text>
+          <textColor>4286644224</textColor>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+          <thickness>2</thickness>
+        </control>
+        <control controlID="691A40A8-0C14-444C-90FB-9B604E08BC76" controlTypeID="Button" x="58" y="48" w="240" h="39" zOrder="3">
+          <borderColor>4278216192</borderColor>
+          <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+            <link targetPageID="51DA283A-5619-4654-BAC2-F847F47952A3" linkType="ltPageLink" isApplyIncludePage="False" title="Perfil">
+              <area shape="0" alt="" ID="{5A860037-D2C3-4488-9B3B-6151749F32F6}" coords="(0,0,240,39)"/>
+            </link>
+          </links>
+          <font family="Segoe+UI" displayName="Segoe+UI_%26_Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False" useDefaultFontFamily="False"/>
+          <text>Activar+comentarios</text>
+          <textColor>4278216192</textColor>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+          <thickness>2</thickness>
+        </control>
+        <control controlID="C4EC736A-8269-4AF4-AAEB-DAB0746BA042" controlTypeID="Border" x="0" y="0" w="355" h="206" zOrder="4">
+          <alias>borderLayer</alias>
+        </control>
+      </groupChildrenDescriptors>
+      <thinkness>1</thinkness>
+    </control>
+    <control controlID="3A1B0B46-6FAC-4297-A28E-90D8985FC23C" controlTypeID="Panel" x="10" y="512" w="355" h="155" zOrder="2">
+      <color>4288256409</color>
+      <groupChildrenDescriptors>
+        <control controlID="EA917A16-CC18-4C66-B8A2-9C7F363F324F" controlTypeID="TextArea" x="58" y="10" w="240" h="43" zOrder="0">
+          <font family="HP+Simplified" displayName="HP+Simplified" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+          <text>@nombredeusuario</text>
+          <textSize>24</textSize>
+          <textAlign>HaCenter</textAlign>
+          <useDefaultTextSize>False</useDefaultTextSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="EDCDE81F-A292-485D-80A4-C05239730144" controlTypeID="Button" x="58" y="97" w="240" h="39" zOrder="1">
+          <borderColor>4286644224</borderColor>
+          <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+            <link targetPageID="51DA283A-5619-4654-BAC2-F847F47952A3" linkType="ltPageLink" isApplyIncludePage="False" title="Perfil">
+              <area shape="0" alt="" ID="{5A860037-D2C3-4488-9B3B-6151749F32F6}" coords="(0,0,240,39)"/>
+            </link>
+          </links>
+          <font family="Segoe+UI" displayName="Segoe+UI_%26_Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False" useDefaultFontFamily="False"/>
+          <text>Desactivar+comentarios</text>
+          <textColor>4286644224</textColor>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+          <thickness>2</thickness>
+        </control>
+        <control controlID="0ABD6E8C-2320-4AD1-AB18-1A6CA02B1FE1" controlTypeID="Button" x="58" y="152" w="240" h="39" zOrder="2">
+          <borderColor>4286644224</borderColor>
+          <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+            <link targetPageID="51DA283A-5619-4654-BAC2-F847F47952A3" linkType="ltPageLink" isApplyIncludePage="False" title="Perfil">
+              <area shape="0" alt="" ID="{5A860037-D2C3-4488-9B3B-6151749F32F6}" coords="(0,0,240,39)"/>
+            </link>
+          </links>
+          <font family="Segoe+UI" displayName="Segoe+UI_%26_Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False" useDefaultFontFamily="False"/>
+          <text>Eliminar+cuenta+@nombredeusuario</text>
+          <textColor>4286644224</textColor>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+          <thickness>2</thickness>
+        </control>
+        <control controlID="A2DF410D-607B-457D-8E8B-BFC6D1607D50" controlTypeID="Button" x="58" y="48" w="240" h="39" zOrder="3">
+          <borderColor>4278216192</borderColor>
+          <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+            <link targetPageID="51DA283A-5619-4654-BAC2-F847F47952A3" linkType="ltPageLink" isApplyIncludePage="False" title="Perfil">
+              <area shape="0" alt="" ID="{5A860037-D2C3-4488-9B3B-6151749F32F6}" coords="(0,0,240,39)"/>
+            </link>
+          </links>
+          <font family="Segoe+UI" displayName="Segoe+UI_%26_Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False" useDefaultFontFamily="False"/>
+          <text>Activar+comentarios</text>
+          <textColor>4278216192</textColor>
+          <lineSpacing>0</lineSpacing>
+          <textStyles>[fsBold]</textStyles>
+          <selectedIndex>-1</selectedIndex>
+          <thickness>2</thickness>
+        </control>
+        <control controlID="45AB773D-9E21-4028-924B-05D45E2FFFAA" controlTypeID="Border" x="0" y="0" w="355" h="155" zOrder="4">
+          <alias>borderLayer</alias>
+        </control>
+      </groupChildrenDescriptors>
+      <thinkness>1</thinkness>
+    </control>
+    <control controlID="408F2898-BD26-4D52-B1B8-20997A0F7717" controlTypeID="ScopeBar" x="10" y="599" w="355" h="48" zOrder="3">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="33FC18E7-46F2-47F9-AF61-BB7F1B3B8DDE" linkType="ltPageLink" isApplyIncludePage="False" title="B%C3%BAsqueda">
+          <area shape="0" alt="" ID="{45568126-41BD-4CE5-AC7C-E6A2EC5DE20D}" coords="(0,0,118,48)"/>
+        </link>
+        <link targetPageID="14DD1B40-C509-4067-8CFC-F660654214A2" linkType="ltPageLink" isApplyIncludePage="False" title="Rankings">
+          <area shape="0" alt="" ID="{87D9C267-DCC9-48EF-BD5A-B2EC8832D4B8}" coords="(118,0,236,48)"/>
+        </link>
+        <link targetPageID="ECB0E9C6-080B-44CD-9E80-5CA56C177441" linkType="ltPageLink" isApplyIncludePage="False" title="Perfil">
+          <area shape="0" alt="" ID="{B09F08AB-F458-4CB8-BD98-48AE6B8495AA}" coords="(236,0,354,48)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+      <text>B%C3%BAsqueda%2CRankings%2CPerfil</text>
+      <textSize>14</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>2</selectedIndex>
+      <selectedColor>4291552767</selectedColor>
+      <thickness>2</thickness>
+    </control>
+    <control controlID="57C0972C-8B84-4FF5-9516-79D8C027E4A7" controlTypeID="Search" x="10" y="20" w="355" h="50" zOrder="4">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <textVAlign>VaTop</textVAlign>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4291552767</backgroundColor>
+    <fontSize>14</fontSize>
+    <fontFamily>Segoe+UI</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

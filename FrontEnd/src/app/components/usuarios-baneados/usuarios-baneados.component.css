@@ -1,0 +1,23 @@
+app-tarjeta-usuario-baneado{
+	margin: 5px;
+	display:flex;
+	justify-content: center;
+}
+
+app-tarjeta-usuario{
+	margin: 5px;
+	display:flex;
+	justify-content: center;
+}
+
+pagination-controls{
+	display: inline-block;
+}
+
+.general{
+	text-align: center;
+}
+
+h3{
+    text-align: center;
+}

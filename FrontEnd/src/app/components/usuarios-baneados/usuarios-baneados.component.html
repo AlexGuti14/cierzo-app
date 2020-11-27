@@ -1,0 +1,21 @@
+<mat-tab-group>
+	<mat-tab label="Usuarios">
+		<h3>Lista de todos los usuarios</h3>
+		<div class="general">
+			<div class="usuarios" *ngFor="let u of listaUsers | paginate: { id: 'todos', itemsPerPage: pageSize, currentPage: pageTotal, totalItems: listaUsers.length }">
+				<app-tarjeta-usuario [infoUser]=u></app-tarjeta-usuario>
+			</div>
+			<pagination-controls (pageChange)="pageTotal = $event" id="todos" previousLabel="Anterior" nextLabel="Siguiente"></pagination-controls>	
+		</div>
+	</mat-tab>
+	<mat-tab label="Usuarios baneados">
+		<h3>Lista de usuarios baneados</h3>
+		<div class="general">
+			<div class="usuarios" *ngFor="let u of listaUsersb | paginate: { id: 'bans', itemsPerPage: pageSize, currentPage: pageBan, totalItems: listaUsersb.length }">
+				<app-tarjeta-usuario-baneado [infoUser]=u></app-tarjeta-usuario-baneado>
+			</div>
+			<p *ngIf="listaUsersb.length==0">-- No hay ningún usuario baneado actualmente --</p>
+			<pagination-controls (pageChange)="pageBan = $event" id="bans" previousLabel="Anterior" nextLabel="Siguiente"></pagination-controls>	
+		</div>
+	</mat-tab>
+</mat-tab-group>

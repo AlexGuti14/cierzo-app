@@ -1,0 +1,39 @@
+<head>
+</head>
+
+<body>
+	<div class="general">
+		<div class="usuario">
+            <img class="imagen" src="../../../assets/images/perfil2.png" alt="Perfil de usuario">
+            <h3>{{usuario.nombre}}</h3>
+            <p id="correo">{{usuario.email}}</p>
+            <p>Has accedido {{usuario.iniciosSesion}} veces a Cierzo</p>
+		</div>
+		<div class="funciones">
+            <button mat-raised-button color="primary" (click)="mostrarCambiarUsername()">Cambiar nombre de usuario</button>
+            <div *ngIf="showInputUsername">
+                  <form [formGroup]="cambiarUsuario" (ngSubmit)="cambiarUsername();cambiarUsuario.reset()">
+                        <mat-form-field>
+                              <mat-label>Nuevo nombre</mat-label>
+                              <input matInput type="text" formControlName="newUsername">
+                        </mat-form-field>
+                        <div></div>
+                        <button mat-raised-button color="primary" id="confirmar">Confirmar</button>
+                  </form>
+            </div>
+            <button mat-raised-button color="primary" (click)="mostrarCambiarPassword()">Cambiar contraseña</button>
+            <div *ngIf="showInputPassword">
+                  <form [formGroup]="cambiarUsuario" (ngSubmit)="cambiarPassword();cambiarUsuario.reset()">
+                        <mat-form-field>
+                              <mat-label>Nueva contraseña</mat-label>
+                              <input matInput type="text" formControlName="newPassword">
+                        </mat-form-field>
+                        <div></div>
+                        <button mat-raised-button color="primary" id="confirmar">Confirmar</button>
+                  </form>
+            </div>
+            <button mat-raised-button color="primary" (click)="cerrarSesion()" id="logout">Cerrar sesión</button>
+            <button mat-raised-button color="primary" (click)="avisoEliminarCuenta()" id="eliminar">Eliminar cuenta</button>
+		</div>
+	</div>
+</body>

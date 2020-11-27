@@ -1,0 +1,35 @@
+<head>
+	<title>Formulario de inicio de sesión</title>
+</head>
+
+<body>
+	<div>
+		<!--<mat-icon svgIcon="goBack" aria-hidden="false" aria-label="Example thumbs up SVG icon" (click)="goBack()" color="warn"></mat-icon>-->
+		<img src="../assets/images/logocierzo.png" alt="Cierzo"><br>
+		<p><b><font color ="black">Crea una cuenta en CIERZO</font></b></p>
+		<form [formGroup]="usuario" (ngSubmit)="onSubmit()">
+			<mat-form-field appearance="fill">
+				<mat-label>Nombre de usuario</mat-label>
+				<input matInput formControlName="nombreUsuario" type="text">
+			</mat-form-field>
+			<mat-form-field appearance="fill">
+				<mat-label>Correo electrónico</mat-label>
+				<input matInput formControlName="correo" type="text">
+			</mat-form-field>
+			<mat-form-field appearance="fill">
+				<mat-label>Contraseña</mat-label>
+				<input matInput formControlName="password" type="password">
+			</mat-form-field>
+			<h5 *ngIf="usuario.controls.password.invalid == true && passwordInvalida == true">
+				La contraseña debe tener entre 4 y 20 caracteres
+			</h5>
+			<h5 *ngIf="usuario.controls.correo.invalid == true && emailInvalido == true">
+				El email introducido no es válido
+			</h5>
+			<button mat-button type="submit" id="entrar">Entra</button>
+		</form>
+		<footer>
+			<button mat-button routerLink="/inicio-sesion" routerLinkActive="active">¿Ya tienes cuenta? Inicia sesión aquí</button>
+		</footer>
+	</div>
+</body>

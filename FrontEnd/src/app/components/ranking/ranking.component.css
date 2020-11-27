@@ -1,0 +1,19 @@
+app-tarjeta-ranking{
+	margin: 5px;
+	display:flex;
+	justify-content: center;
+}
+
+div.filtro {
+	margin: 0;
+	padding: 0;
+	margin-top: 0.5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+mat-form-field {
+	width: 85%;
+	padding-top: 0.5em;
+}

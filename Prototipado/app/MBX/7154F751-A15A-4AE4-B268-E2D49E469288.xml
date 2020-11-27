@@ -1,0 +1,81 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="E2F5EB67-216F-4C25-9710-9E07FA17F01F" platform="MtMobile" defaultW="375" defaultH="667" measureW="375" measureH="667" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="9">
+    <control controlID="1B6B9F4A-1ACA-402A-86A1-E9EAA8C5E9C1" controlTypeID="ImageCarousel" x="503" y="248" w="137" h="274" zOrder="0">
+      <groupChildrenDescriptors>
+        <control controlID="F44BE0A1-FAFD-4211-B68E-651C3423A856" controlTypeID="ImageBackground" x="0" y="0" w="137" h="274" zOrder="0">
+          <caption>grafico+de+barras+1</caption>
+          <groupChildrenDescriptors/>
+          <URL>669688EF32A24C30394689A38E455E74.png</URL>
+        </control>
+        <control controlID="96CF4947-F19D-495C-AC83-6AD5574DC82C" controlTypeID="ImageBackground" x="0" y="0" w="137" h="274" zOrder="1">
+          <caption>grafico-lineas-final</caption>
+          <groupChildrenDescriptors/>
+          <URL>D64D0A0CC9F165C07A7F893AAB88EC74.png</URL>
+        </control>
+      </groupChildrenDescriptors>
+      <selectedIndex>1</selectedIndex>
+    </control>
+    <control controlID="5D3795D8-2BDD-47F2-BBBD-AD4A899E0C10" controlTypeID="TextArea" x="10" y="10" w="240" h="43" zOrder="1">
+      <font family="HP+Simplified" displayName="HP+Simplified" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Estad%C3%ADsticas</text>
+      <textSize>32</textSize>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="3A2FA89E-0841-45CC-89CD-8254F9594AD9" controlTypeID="Panel" x="10" y="63" w="360" h="514" zOrder="2">
+      <groupChildrenDescriptors>
+        <control controlID="C10AD05A-1800-4EE3-A138-FF62E8CFBC0A" controlTypeID="PageControlEx" x="120" y="456" w="120" h="40" zOrder="0">
+          <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+            <link targetPageID="7154F751-A15A-4AE4-B268-E2D49E469288" linkType="ltPageLink" isApplyIncludePage="False" title="1">
+              <area shape="0" alt="" ID="{9DA2030A-AF6E-4752-BEFF-CC69B534C651}" coords="(0,0,40,40)"/>
+            </link>
+            <link targetPageID="7154F751-A15A-4AE4-B268-E2D49E469288" linkType="ltPageLink" isApplyIncludePage="False" title="Estad%C3%ADsticas+2">
+              <area shape="0" alt="" ID="{2361BBA0-9EEE-4567-A180-E2CA6C58137D}" coords="(40,0,80,40)"/>
+            </link>
+            <link targetPageID="C12FC99E-EF05-40F3-95ED-C2F1DCCDF4FC" linkType="ltPageLink" isApplyIncludePage="False" title="Estad%C3%ADsticas+3">
+              <area shape="0" alt="" ID="{0BD164DF-6DE6-48A1-B94F-96F7C775D776}" coords="(80,0,120,40)"/>
+            </link>
+          </links>
+          <columnCount>3</columnCount>
+          <selectedIndex>1</selectedIndex>
+        </control>
+        <control controlID="F85E4524-A6E1-478C-8A1F-2E83E60B76E1" controlTypeID="PieChartEx" x="85" y="162" w="190" h="190" zOrder="1">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+          <text>25%2Corange%0D%0A5%2Ccyan%0D%0A30%2Cpink%0D%0A40%2C%23FFCE55</text>
+          <textSize>14</textSize>
+          <lineSpacing>0</lineSpacing>
+        </control>
+        <control controlID="3D865709-B663-4C91-BB43-17B804DADFF8" controlTypeID="Border" x="0" y="0" w="360" h="514" zOrder="2">
+          <alias>borderLayer</alias>
+        </control>
+      </groupChildrenDescriptors>
+      <thinkness>1</thinkness>
+    </control>
+    <control controlID="5FCCBAFD-733D-45B5-BF7F-B5DFF2F252E7" controlTypeID="ScopeBar" x="12" y="599" w="355" h="48" zOrder="3">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="8CC2ADB7-06BE-4CB1-9AD3-A90813821D8A" linkType="ltPageLink" isApplyIncludePage="False" title="B%C3%BAsqueda">
+          <area shape="0" alt="" ID="{45568126-41BD-4CE5-AC7C-E6A2EC5DE20D}" coords="(0,0,118,48)"/>
+        </link>
+        <link targetPageID="14DD1B40-C509-4067-8CFC-F660654214A2" linkType="ltPageLink" isApplyIncludePage="False" title="Rankings">
+          <area shape="0" alt="" ID="{87D9C267-DCC9-48EF-BD5A-B2EC8832D4B8}" coords="(118,0,236,48)"/>
+        </link>
+        <link targetPageID="51DA283A-5619-4654-BAC2-F847F47952A3" linkType="ltPageLink" isApplyIncludePage="False" title="Perfil">
+          <area shape="0" alt="" ID="{B09F08AB-F458-4CB8-BD98-48AE6B8495AA}" coords="(236,0,354,48)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+      <text>B%C3%BAsqueda%2CRankings%2CPerfil</text>
+      <textSize>14</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>2</selectedIndex>
+      <selectedColor>4291552767</selectedColor>
+      <thickness>2</thickness>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4291552767</backgroundColor>
+    <fontSize>14</fontSize>
+    <fontFamily>Segoe+UI</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

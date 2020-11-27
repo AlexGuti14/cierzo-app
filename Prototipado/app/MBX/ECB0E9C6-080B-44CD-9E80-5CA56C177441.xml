@@ -1,0 +1,121 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="8CC2ADB7-06BE-4CB1-9AD3-A90813821D8A" platform="MtMobile" defaultW="375" defaultH="667" measureW="375" measureH="667" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="9">
+    <control controlID="20870EC2-A9C4-4F82-88C1-D5AC84C9E9B1" controlTypeID="AvatarEx2" x="109" y="101" w="158" h="158" zOrder="0">
+      <icon>
+        <ID/>
+        <iconFontName>jdiconfontB</iconFontName>
+        <iconCode>59652</iconCode>
+      </icon>
+      <URL>467605F5F90D9FF65132C1A6EF883F26.svg</URL>
+    </control>
+    <control controlID="75A9827F-BC28-479C-9CFA-9E129390CDE4" controlTypeID="ScopeBar" x="10" y="599" w="355" h="48" zOrder="1">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="8CC2ADB7-06BE-4CB1-9AD3-A90813821D8A" linkType="ltPageLink" isApplyIncludePage="False" title="B%C3%BAsqueda">
+          <area shape="0" alt="" ID="{45568126-41BD-4CE5-AC7C-E6A2EC5DE20D}" coords="(0,0,118,48)"/>
+        </link>
+        <link targetPageID="14DD1B40-C509-4067-8CFC-F660654214A2" linkType="ltPageLink" isApplyIncludePage="False" title="Rankings">
+          <area shape="0" alt="" ID="{87D9C267-DCC9-48EF-BD5A-B2EC8832D4B8}" coords="(118,0,236,48)"/>
+        </link>
+        <link targetPageID="ECB0E9C6-080B-44CD-9E80-5CA56C177441" linkType="ltPageLink" isApplyIncludePage="False" title="Perfil">
+          <area shape="0" alt="" ID="{B09F08AB-F458-4CB8-BD98-48AE6B8495AA}" coords="(236,0,354,48)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+      <text>B%C3%BAsqueda%2CRankings%2CPerfil</text>
+      <textSize>14</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>2</selectedIndex>
+      <selectedColor>4291552767</selectedColor>
+      <thickness>2</thickness>
+    </control>
+    <control controlID="2A578A58-F92B-404F-94FC-5C41AC47C33F" controlTypeID="Button" x="68" y="538" w="240" h="39" zOrder="2">
+      <borderColor>4286644224</borderColor>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="ECB0E9C6-080B-44CD-9E80-5CA56C177441" linkType="ltPageLink" isApplyIncludePage="False" title="Perfil">
+          <area shape="0" alt="" ID="{5A860037-D2C3-4488-9B3B-6151749F32F6}" coords="(0,0,240,39)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI_%26_Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Eliminar+cuenta</text>
+      <textColor>4286644224</textColor>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <selectedIndex>-1</selectedIndex>
+      <thickness>2</thickness>
+    </control>
+    <control controlID="D90A6DDB-C0D0-46A4-9D13-B1273FE72F42" controlTypeID="Button" x="68" y="410" w="240" h="39" zOrder="3">
+      <color>4278218977</color>
+      <borderColor>4294967295</borderColor>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="A851D9C7-39C3-4179-BDF5-89F19B7DB63A" linkType="ltPageLink" isApplyIncludePage="False" title="Registro">
+          <area shape="0" alt="" ID="{5A860037-D2C3-4488-9B3B-6151749F32F6}" coords="(0,0,240,39)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI_%26_Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Cambiar+contrase%C3%B1a</text>
+      <textColor>4294967295</textColor>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <selectedIndex>-1</selectedIndex>
+      <thickness>2</thickness>
+    </control>
+    <control controlID="7DF3880C-FEBE-4B62-BBE7-4E825B1D28AD" controlTypeID="Label" x="100" y="259" w="176" h="27" zOrder="4">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+      <text>@nombredeusuario</text>
+      <textSize>20</textSize>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="C59BF50E-A414-4C7F-80FC-0242D666EFD3" controlTypeID="TextArea" x="68" y="286" w="240" h="46" zOrder="5">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+      <text>Has+consultado+5+barrios+en%0D%0A21+accesos+en+la+%C3%BAltima+semana</text>
+      <textColor>4284900966</textColor>
+      <textAlign>HaCenter</textAlign>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="EF999549-8337-4075-BEC3-6442250709F5" controlTypeID="Button" x="68" y="362" w="240" h="39" zOrder="6">
+      <color>4278218977</color>
+      <borderColor>4294967295</borderColor>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="A851D9C7-39C3-4179-BDF5-89F19B7DB63A" linkType="ltPageLink" isApplyIncludePage="False" title="Registro">
+          <area shape="0" alt="" ID="{5A860037-D2C3-4488-9B3B-6151749F32F6}" coords="(0,0,240,39)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI_%26_Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Cambiar+nombre+de+usuario</text>
+      <textColor>4294967295</textColor>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <selectedIndex>-1</selectedIndex>
+      <thickness>2</thickness>
+    </control>
+    <control controlID="1105A128-FAAC-4AC2-9B32-0F8CC812A1D0" controlTypeID="Button" x="68" y="459" w="240" h="39" zOrder="7">
+      <color>4278218977</color>
+      <borderColor>4294967295</borderColor>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="A851D9C7-39C3-4179-BDF5-89F19B7DB63A" linkType="ltPageLink" isApplyIncludePage="False" title="Registro">
+          <area shape="0" alt="" ID="{5A860037-D2C3-4488-9B3B-6151749F32F6}" coords="(0,0,240,39)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI_%26_Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Cerrar+sesi%C3%B3n</text>
+      <textColor>4294967295</textColor>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <selectedIndex>-1</selectedIndex>
+      <thickness>2</thickness>
+    </control>
+    <control controlID="100A2940-A785-44FB-AB23-816975B3F09A" controlTypeID="StickyNote" x="423" y="215" w="122" h="186" zOrder="8">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+      <text>La+versi%C3%B3n+de+administrador+incluir%C3%A1+un+bot%C3%B3n+para+ver+anal%C3%ADticas</text>
+      <textSize>14</textSize>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4291552767</backgroundColor>
+    <fontSize>14</fontSize>
+    <fontFamily>Segoe+UI</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

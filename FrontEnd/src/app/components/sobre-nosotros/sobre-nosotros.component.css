@@ -1,0 +1,21 @@
+.imagenEquipo{
+	width: 100%;
+	max-width: 50em;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+h1 {
+	text-align: center;
+	padding: 40px;
+}
+
+h2 {
+	text-align: center;
+	padding: 40px;
+}
+
+p {
+	margin-left:15vw;
+	margin-right:15vw;
+}

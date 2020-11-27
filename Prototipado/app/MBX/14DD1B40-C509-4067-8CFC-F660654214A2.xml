@@ -1,0 +1,199 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="14DD1B40-C509-4067-8CFC-F660654214A2" platform="MtMobile" defaultW="375" defaultH="667" measureW="375" measureH="667" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="28">
+    <control controlID="AC7FE61D-9257-4C6F-887C-F4C742911ACE" controlTypeID="Map" x="0" y="0" w="375" h="667" zOrder="0"/>
+    <control controlID="A78EDF63-4A00-4512-A4E0-B2CB9D172407" controlTypeID="Panel" x="10" y="63" w="355" h="128" zOrder="1">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="6DB0085D-D723-4AFA-8C85-407EDD736E0C" linkType="ltPageLink" isApplyIncludePage="False" title="InfoBarrio">
+          <area shape="0" alt="" ID="{1F71D3C4-054F-48E4-BCAA-EFE13F80AAB0}" coords="(0,0,355,128)"/>
+        </link>
+      </links>
+      <groupChildrenDescriptors>
+        <control controlID="6787FD46-6A16-4445-A538-D507CDC6C85D" controlTypeID="Label" x="10" y="10" w="102" h="27" zOrder="0">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+          <text>Las+Fuentes</text>
+          <textSize>20</textSize>
+          <lineSpacing>0</lineSpacing>
+          <useDefaultTextSize>False</useDefaultTextSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="EADD3548-B5DA-4A12-982D-6B0EEF8E2FCB" controlTypeID="Image" x="10" y="37" w="137" h="81" zOrder="1">
+          <URL>6E2DFB0245220F4B1854AC944CCCF3A5.jpg</URL>
+        </control>
+        <control controlID="C7974B83-370E-4FBE-8D79-9A57DD7E57BC" controlTypeID="TextArea" x="151" y="31" w="184" h="87" zOrder="2">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+          <text>Econom%C3%ADa%3A+-------%0D%0AConectividad%3A+-------%0D%0AContaminaci%C3%B3n%3A+-------%0D%0AValoraci%C3%B3n+general%3A+-------</text>
+          <textSize>16</textSize>
+          <textAlign>HaRight</textAlign>
+          <useDefaultTextSize>False</useDefaultTextSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="3F4CE6CB-E805-478F-9A46-2BFCBDB8C5A2" controlTypeID="Border" x="0" y="0" w="355" h="128" zOrder="3">
+          <alias>borderLayer</alias>
+          <thickness>2</thickness>
+        </control>
+      </groupChildrenDescriptors>
+      <thinkness>2</thinkness>
+    </control>
+    <control controlID="FB53410A-B2F4-4A23-B0F4-483970FD53D0" controlTypeID="Panel" x="10" y="201" w="355" h="128" zOrder="2">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="6DB0085D-D723-4AFA-8C85-407EDD736E0C" linkType="ltPageLink" isApplyIncludePage="False" title="InfoBarrio">
+          <area shape="0" alt="" ID="{BD9EC251-D65A-4D05-92C7-1B8E5B5880BC}" coords="(0,0,355,128)"/>
+        </link>
+      </links>
+      <groupChildrenDescriptors>
+        <control controlID="009D357F-B925-413F-B78B-C7FA52AF365B" controlTypeID="Label" x="10" y="10" w="60" h="27" zOrder="0">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+          <text>Centro</text>
+          <textSize>20</textSize>
+          <lineSpacing>0</lineSpacing>
+          <useDefaultTextSize>False</useDefaultTextSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="4E4B0AE2-88DE-4050-BCE5-E0D0DBEF42A1" controlTypeID="Image" x="10" y="37" w="137" h="81" zOrder="1">
+          <URL>E4FB71AFFE766E65E60C0AF87E7D56B1.jpg</URL>
+        </control>
+        <control controlID="59A600A3-4A0D-439A-9743-6357B663244A" controlTypeID="TextArea" x="151" y="31" w="184" h="87" zOrder="2">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+          <text>Econom%C3%ADa%3A+-------%0D%0AConectividad%3A+-------%0D%0AContaminaci%C3%B3n%3A+-------%0D%0AValoraci%C3%B3n+general%3A+-------</text>
+          <textSize>16</textSize>
+          <textAlign>HaRight</textAlign>
+          <useDefaultTextSize>False</useDefaultTextSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="DDFCD698-5691-43DF-8C04-CB45AA679558" controlTypeID="Border" x="0" y="0" w="355" h="128" zOrder="3">
+          <alias>borderLayer</alias>
+          <thickness>2</thickness>
+        </control>
+      </groupChildrenDescriptors>
+      <thinkness>2</thinkness>
+    </control>
+    <control controlID="0829677D-DB03-4FF0-83F3-E3017C3F6150" controlTypeID="Panel" x="10" y="339" w="355" h="128" zOrder="3">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="6DB0085D-D723-4AFA-8C85-407EDD736E0C" linkType="ltPageLink" isApplyIncludePage="False" title="InfoBarrio">
+          <area shape="0" alt="" ID="{9D8B2A9E-3B49-4F27-A1FD-93672B0F5E43}" coords="(0,0,355,128)"/>
+        </link>
+      </links>
+      <groupChildrenDescriptors>
+        <control controlID="08DD187F-A815-4E12-83E8-9AE35CB57C32" controlTypeID="Label" x="10" y="10" w="67" h="27" zOrder="0">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+          <text>Delicias</text>
+          <textSize>20</textSize>
+          <lineSpacing>0</lineSpacing>
+          <useDefaultTextSize>False</useDefaultTextSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="71DE7242-6223-445E-87B3-098D2DC0374E" controlTypeID="Image" x="10" y="37" w="137" h="81" zOrder="1">
+          <URL>233E97D32D03AFA4F69AE3B77A4F8C2B.jpg</URL>
+        </control>
+        <control controlID="0BB56B11-AA5C-4E67-BDF1-732D5D0EBDAD" controlTypeID="TextArea" x="151" y="31" w="184" h="87" zOrder="2">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+          <text>Econom%C3%ADa%3A+-------%0D%0AConectividad%3A+-------%0D%0AContaminaci%C3%B3n%3A+-------%0D%0AValoraci%C3%B3n+general%3A+-------</text>
+          <textSize>16</textSize>
+          <textAlign>HaRight</textAlign>
+          <useDefaultTextSize>False</useDefaultTextSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="6773ECC0-9AC6-4F9A-B9B1-C61C32DCB0C4" controlTypeID="Border" x="0" y="0" w="355" h="128" zOrder="3">
+          <alias>borderLayer</alias>
+          <thickness>2</thickness>
+        </control>
+      </groupChildrenDescriptors>
+      <thinkness>2</thinkness>
+    </control>
+    <control controlID="2872A0EB-800D-44DC-B8F7-D35F20CA8FDE" controlTypeID="Panel" x="10" y="477" w="355" h="128" zOrder="4">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="6DB0085D-D723-4AFA-8C85-407EDD736E0C" linkType="ltPageLink" isApplyIncludePage="False" title="InfoBarrio">
+          <area shape="0" alt="" ID="{E39ABC61-9B8E-4472-A5CF-00039B5DBB26}" coords="(0,0,355,128)"/>
+        </link>
+      </links>
+      <groupChildrenDescriptors>
+        <control controlID="EDE1DBA1-5EE2-406B-8A1F-55EF26D72F00" controlTypeID="Label" x="10" y="10" w="176" h="27" zOrder="0">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+          <text>Actur-Rey+Fernando</text>
+          <textSize>20</textSize>
+          <lineSpacing>0</lineSpacing>
+          <useDefaultTextSize>False</useDefaultTextSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="78B6FCA0-32C8-477A-93CD-02742EECDE7F" controlTypeID="Image" x="10" y="37" w="137" h="81" zOrder="1">
+          <URL>2F86246FD58111C2B994F583B477DF45.jpg</URL>
+        </control>
+        <control controlID="C3D18878-CBF9-448B-8C7B-8ECF70D2A17D" controlTypeID="TextArea" x="151" y="31" w="184" h="87" zOrder="2">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+          <text>Econom%C3%ADa%3A+-------%0D%0AConectividad%3A+-------%0D%0AContaminaci%C3%B3n%3A+-------%0D%0AValoraci%C3%B3n+general%3A+-------</text>
+          <textSize>16</textSize>
+          <textAlign>HaRight</textAlign>
+          <useDefaultTextSize>False</useDefaultTextSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="7CE43C5E-83CD-47C9-B45E-E9D3C2B2D3B3" controlTypeID="Border" x="0" y="0" w="355" h="128" zOrder="3">
+          <alias>borderLayer</alias>
+          <thickness>2</thickness>
+        </control>
+      </groupChildrenDescriptors>
+      <thinkness>2</thinkness>
+    </control>
+    <control controlID="007825F9-99FD-4154-B2C6-6A90A3A5E1C5" controlTypeID="ScopeBar" x="10" y="10" w="355" h="48" zOrder="5">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+      <text>Econom%C3%ADa%2CConectividad%2CContaminaci%C3%B3n%2CValoraci%C3%B3n</text>
+      <textSize>14</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>3</selectedIndex>
+      <selectedColor>4291552767</selectedColor>
+      <thickness>2</thickness>
+    </control>
+    <control controlID="C2879DFD-09BD-4FBC-AB54-D765EC179BAD" controlTypeID="Panel" x="10" y="613" w="355" h="54" zOrder="6">
+      <color>4291611852</color>
+      <groupChildrenDescriptors>
+        <control controlID="A99AD07B-E79F-4667-A549-F3B2ACF97B20" controlTypeID="Label" x="10" y="10" w="101" h="27" zOrder="0">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+          <text>Miralbueno</text>
+          <textSize>20</textSize>
+          <lineSpacing>0</lineSpacing>
+          <useDefaultTextSize>False</useDefaultTextSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="7E54477E-36BE-4B2E-A89B-1BA3CB493813" controlTypeID="Image" x="10" y="37" w="137" h="81" zOrder="1"/>
+        <control controlID="A81188CB-8AAC-4160-94EF-6D1BD138CC45" controlTypeID="TextArea" x="151" y="31" w="184" h="87" zOrder="2">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+          <text>Econom%C3%ADa%3A+-------%0D%0AConectividad%3A+-------%0D%0AContaminaci%C3%B3n%3A+-------%0D%0AValoraci%C3%B3n+general%3A+-------</text>
+          <textSize>16</textSize>
+          <textAlign>HaRight</textAlign>
+          <useDefaultTextSize>False</useDefaultTextSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="FFD506D2-4549-48ED-828B-1D12AFDC11F2" controlTypeID="Border" x="0" y="0" w="355" h="54" zOrder="3">
+          <alias>borderLayer</alias>
+          <thickness>2</thickness>
+        </control>
+      </groupChildrenDescriptors>
+      <thinkness>2</thinkness>
+    </control>
+    <control controlID="5E97C0A6-5F80-44BA-A4CD-8B41C24949CD" controlTypeID="ScopeBar" x="10" y="599" w="355" h="48" zOrder="7">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="8CC2ADB7-06BE-4CB1-9AD3-A90813821D8A" linkType="ltPageLink" isApplyIncludePage="False" title="B%C3%BAsqueda">
+          <area shape="0" alt="" ID="{45568126-41BD-4CE5-AC7C-E6A2EC5DE20D}" coords="(0,0,118,48)"/>
+        </link>
+        <link targetPageID="14DD1B40-C509-4067-8CFC-F660654214A2" linkType="ltPageLink" isApplyIncludePage="False" title="Rankings">
+          <area shape="0" alt="" ID="{87D9C267-DCC9-48EF-BD5A-B2EC8832D4B8}" coords="(118,0,236,48)"/>
+        </link>
+        <link targetPageID="ECB0E9C6-080B-44CD-9E80-5CA56C177441" linkType="ltPageLink" isApplyIncludePage="False" title="Perfil">
+          <area shape="0" alt="" ID="{B09F08AB-F458-4CB8-BD98-48AE6B8495AA}" coords="(236,0,354,48)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+      <text>B%C3%BAsqueda%2CRankings%2CPerfil</text>
+      <textSize>14</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>1</selectedIndex>
+      <selectedColor>4291552767</selectedColor>
+      <thickness>2</thickness>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4291552767</backgroundColor>
+    <fontSize>14</fontSize>
+    <fontFamily>Segoe+UI</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

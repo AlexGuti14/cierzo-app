@@ -1,0 +1,21 @@
+* {
+	text-align: center;
+}
+
+
+button{
+	margin-bottom: 1.5em;
+	width: 70%;
+}
+
+h3 {
+	margin: 0;
+}
+
+.cabecera{
+	margin: 1em;
+}
+
+.email {
+	font-weight:normal;
+}

@@ -1,0 +1,67 @@
+<mat-tab-group>
+    <mat-tab label="Barrios">
+        <h4>Visualizaciones por barrio</h4>
+        <div class="chart-wrapper">
+            <canvas baseChart 
+            [datasets]="barChartDataVisualizaciones"
+            [labels]="barChartLabels"
+            [options]="barChartOptions"
+            [plugins]="barChartPlugins"
+            [legend]="barChartLegend"
+            [chartType]="barChartType"
+            [colors]="barChartColorsVis">
+            </canvas>
+        </div>
+        <h4>Valoraciones por barrio</h4>
+        <div class="chart-wrapper">
+            <canvas baseChart 
+            [datasets]="barChartDataValoraciones"
+            [labels]="barChartLabels"
+            [options]="barChartOptions"
+            [plugins]="barChartPlugins"
+            [legend]="barChartLegend"
+            [chartType]="barChartType"
+            [colors]="barChartColorsVal">
+            </canvas>
+        </div>
+        <h4>Comentarios por barrio</h4>
+        <div class="chart-wrapper">
+            <canvas baseChart 
+            [datasets]="barChartDataComentarios"
+            [labels]="barChartLabels"
+            [options]="barChartOptions"
+            [plugins]="barChartPlugins"
+            [legend]="barChartLegend"
+            [chartType]="barChartType"
+            [colors]="barChartColorsCom">
+            </canvas>
+        </div>
+    </mat-tab>
+    <mat-tab label="Cuentas">
+        <h4>Administradores</h4>
+        <div class="chart-wrapper">
+            <canvas baseChart 
+            [data]="pieChartDataAdmins"
+            [labels]="pieChartLabelsAdmins"
+            [chartType]="pieChartType"
+            [options]="pieChartOptions"
+            [plugins]="pieChartPlugins"
+            [legend]="pieChartLegend"
+            [colors]="pieChartColorsU">
+            </canvas>
+        </div>
+        <h4>Baneados</h4>
+        <div class="chart-wrapper">
+            <canvas baseChart 
+            [data]="pieChartDataBans"
+            [labels]="pieChartLabelsBans"
+            [chartType]="pieChartType"
+            [options]="pieChartOptions"
+            [plugins]="pieChartPlugins"
+            [legend]="pieChartLegend"
+            [colors]="pieChartColorsB">
+        </canvas>
+        </div>
+        <h4 id="inicios">Se ha iniciado sesión en Cierzo {{ logins }} veces por un total de {{ users }} usuarios</h4>
+    </mat-tab>
+</mat-tab-group>

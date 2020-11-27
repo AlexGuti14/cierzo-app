@@ -1,0 +1,43 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="8CC2ADB7-06BE-4CB1-9AD3-A90813821D8A" platform="MtMobile" defaultW="375" defaultH="667" measureW="375" measureH="667" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="4">
+    <control controlID="AC7FE61D-9257-4C6F-887C-F4C742911ACE" controlTypeID="Map" x="0" y="0" w="375" h="667" zOrder="0"/>
+    <control controlID="57C0972C-8B84-4FF5-9516-79D8C027E4A7" controlTypeID="Search" x="10" y="20" w="355" h="50" zOrder="1">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+      <textSize>14</textSize>
+      <textVAlign>VaTop</textVAlign>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="0E0BF171-9E17-45AB-8437-29918882F4D5" controlTypeID="StickyNote" x="-149" y="582" w="109" h="123" zOrder="2">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+      <text>Los+botones+en+vez+de+texto+mejor+con+iconos</text>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="408F2898-BD26-4D52-B1B8-20997A0F7717" controlTypeID="ScopeBar" x="10" y="599" w="355" h="48" zOrder="3">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="8CC2ADB7-06BE-4CB1-9AD3-A90813821D8A" linkType="ltPageLink" isApplyIncludePage="False" title="B%C3%BAsqueda">
+          <area shape="0" alt="" ID="{45568126-41BD-4CE5-AC7C-E6A2EC5DE20D}" coords="(0,0,118,48)"/>
+        </link>
+        <link targetPageID="14DD1B40-C509-4067-8CFC-F660654214A2" linkType="ltPageLink" isApplyIncludePage="False" title="Rankings">
+          <area shape="0" alt="" ID="{87D9C267-DCC9-48EF-BD5A-B2EC8832D4B8}" coords="(118,0,236,48)"/>
+        </link>
+        <link targetPageID="ECB0E9C6-080B-44CD-9E80-5CA56C177441" linkType="ltPageLink" isApplyIncludePage="False" title="Perfil">
+          <area shape="0" alt="" ID="{B09F08AB-F458-4CB8-BD98-48AE6B8495AA}" coords="(236,0,354,48)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+      <text>B%C3%BAsqueda%2CRankings%2CPerfil</text>
+      <textSize>14</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedColor>4291552767</selectedColor>
+      <thickness>2</thickness>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4291552767</backgroundColor>
+    <fontSize>14</fontSize>
+    <fontFamily>Segoe+UI</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

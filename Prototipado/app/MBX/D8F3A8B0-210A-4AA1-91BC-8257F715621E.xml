@@ -1,0 +1,46 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="E2F5EB67-216F-4C25-9710-9E07FA17F01F" platform="MtMobile" defaultW="375" defaultH="667" measureW="375" measureH="667" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="5">
+    <control controlID="5D3795D8-2BDD-47F2-BBBD-AD4A899E0C10" controlTypeID="TextArea" x="10" y="10" w="240" h="43" zOrder="0">
+      <font family="HP+Simplified" displayName="HP+Simplified" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Estad%C3%ADsticas</text>
+      <textSize>32</textSize>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="3A2FA89E-0841-45CC-89CD-8254F9594AD9" controlTypeID="Panel" x="5" y="63" w="360" h="594" zOrder="1">
+      <groupChildrenDescriptors>
+        <control controlID="9722BF4D-2D3A-4696-ACD2-6341065E9E3E" controlTypeID="PieChartEx" x="85" y="202" w="190" h="190" zOrder="0">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+          <text>25%2Corange%0D%0A5%2Ccyan%0D%0A30%2Cpink%0D%0A40%2C%23FFCE55</text>
+          <textSize>14</textSize>
+          <lineSpacing>0</lineSpacing>
+        </control>
+        <control controlID="CF2134BB-EDCA-471D-9D23-725D913D5E1C" controlTypeID="PageControlEx" x="120" y="551" w="120" h="40" zOrder="1">
+          <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+            <link targetPageID="E2F5EB67-216F-4C25-9710-9E07FA17F01F" linkType="ltPageLink" isApplyIncludePage="False" title="1">
+              <area shape="0" alt="" ID="{9DA2030A-AF6E-4752-BEFF-CC69B534C651}" coords="(0,0,40,40)"/>
+            </link>
+            <link targetPageID="D8F3A8B0-210A-4AA1-91BC-8257F715621E" linkType="ltPageLink" isApplyIncludePage="False" title="2">
+              <area shape="0" alt="" ID="{2361BBA0-9EEE-4567-A180-E2CA6C58137D}" coords="(40,0,80,40)"/>
+            </link>
+            <link targetPageID="1235D461-7D8A-44C4-AC45-3C458FDBB6E5" linkType="ltPageLink" isApplyIncludePage="False" title="3">
+              <area shape="0" alt="" ID="{0BD164DF-6DE6-48A1-B94F-96F7C775D776}" coords="(80,0,120,40)"/>
+            </link>
+          </links>
+          <columnCount>3</columnCount>
+          <selectedIndex>1</selectedIndex>
+        </control>
+        <control controlID="3D865709-B663-4C91-BB43-17B804DADFF8" controlTypeID="Border" x="0" y="0" w="360" h="594" zOrder="2">
+          <alias>borderLayer</alias>
+        </control>
+      </groupChildrenDescriptors>
+      <thinkness>1</thinkness>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4291552767</backgroundColor>
+    <fontSize>14</fontSize>
+    <fontFamily>Segoe+UI</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

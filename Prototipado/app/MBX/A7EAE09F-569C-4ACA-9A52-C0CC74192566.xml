@@ -1,0 +1,87 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="A7EAE09F-569C-4ACA-9A52-C0CC74192566" platform="MtMobile" defaultW="375" defaultH="667" measureW="375" measureH="667" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="8">
+    <control controlID="A0396E9D-7BAB-457D-A5EE-9AD6A85E385D" controlTypeID="Image" x="97" y="68" w="182" h="182" zOrder="0">
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="8CC2ADB7-06BE-4CB1-9AD3-A90813821D8A" linkType="ltPageLink" isApplyIncludePage="False" title="Home">
+          <area shape="0" alt="" ID="{F62503E2-2492-4449-887D-6D106F610948}" coords="(0,0,182,182)"/>
+        </link>
+      </links>
+      <URL>1CF2E30306F0CC296A8E3CA7A03EB8EA.png</URL>
+    </control>
+    <control controlID="8723FCB9-2F4A-47E5-B09D-CE07CF3B0B93" controlTypeID="TextInput" x="70" y="313" w="236" h="39" zOrder="1">
+      <font family="Verdana" displayName="Verdana" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Correo+electr%C3%B3nico</text>
+      <textColor>4284900966</textColor>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+      <radius>8</radius>
+    </control>
+    <control controlID="AC737BC6-C807-4EA7-AF6A-6AB037D667AA" controlTypeID="TextInput" x="70" y="367" w="236" h="39" zOrder="2">
+      <font family="Verdana" displayName="Verdana" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Contrase%C3%B1a</text>
+      <textColor>4284900966</textColor>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+      <inputModel>emPassword</inputModel>
+      <radius>8</radius>
+    </control>
+    <control controlID="90E30911-0745-4F98-B5EE-8AF2EE6A0682" controlTypeID="Image" x="94" y="483" w="187" h="45" zOrder="3">
+      <URL>E9996CD20A249418A094202D54674E78.png</URL>
+    </control>
+    <control controlID="0C82FB1C-D3DC-47E1-9BEB-ACE37DE0EFBA" controlTypeID="TextArea" x="68" y="260" w="240" h="43" zOrder="4">
+      <font family="HP+Simplified" displayName="HP+Simplified" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>CIERZO</text>
+      <textSize>32</textSize>
+      <textAlign>HaCenter</textAlign>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="8CA83EB8-DA0A-4282-8222-0F690EFDA849" controlTypeID="TextArea" x="54" y="569" w="268" h="37" zOrder="5">
+      <font family="HP+Simplified" displayName="HP+Simplified" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>%C2%BFTodav%C3%ADa+no+tienes+cuenta%3F+Reg%C3%ADstrate+aqu%C3%AD</text>
+      <textAlign>HaCenter</textAlign>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="0718EE1E-8799-4FE7-B4CE-012D51FCF580" controlTypeID="Button" x="71" y="595" w="234" h="39" zOrder="6">
+      <color>4278218977</color>
+      <borderColor>4294967295</borderColor>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="A851D9C7-39C3-4179-BDF5-89F19B7DB63A" linkType="ltPageLink" isApplyIncludePage="False" title="Registro">
+          <area shape="0" alt="" ID="{5A860037-D2C3-4488-9B3B-6151749F32F6}" coords="(0,0,234,39)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI_%26_Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Registrar+nuevo+usuario</text>
+      <textColor>4294967295</textColor>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <selectedIndex>-1</selectedIndex>
+      <thickness>2</thickness>
+    </control>
+    <control controlID="7ECE416E-FD6A-44CC-B0AE-BD67BEBF02FE" controlTypeID="Button" x="71" y="422" w="234" h="39" zOrder="7">
+      <color>4278218977</color>
+      <borderColor>4294967295</borderColor>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="A851D9C7-39C3-4179-BDF5-89F19B7DB63A" linkType="ltPageLink" isApplyIncludePage="False" title="Registro">
+          <area shape="0" alt="" ID="{5A860037-D2C3-4488-9B3B-6151749F32F6}" coords="(0,0,234,39)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI_%26_Bold" postScript="" weightStyle="Bold" weight="700" isBold="True" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Entrar</text>
+      <textColor>4294967295</textColor>
+      <lineSpacing>0</lineSpacing>
+      <textStyles>[fsBold]</textStyles>
+      <selectedIndex>-1</selectedIndex>
+      <thickness>2</thickness>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4291552767</backgroundColor>
+    <fontSize>14</fontSize>
+    <fontFamily>Segoe+UI</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

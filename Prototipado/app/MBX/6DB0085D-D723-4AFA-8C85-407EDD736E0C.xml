@@ -1,0 +1,201 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="6DB0085D-D723-4AFA-8C85-407EDD736E0C" platform="MtMobile" defaultW="375" defaultH="667" measureW="375" measureH="667" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="27">
+    <control controlID="6C73CFCD-EC2D-459C-99A1-4DE0089D2765" controlTypeID="Map" x="0" y="0" w="375" h="667" zOrder="0"/>
+    <control controlID="7D2CAA11-4AAD-435B-BE4C-314C4475CB03" controlTypeID="Panel" x="10" y="10" w="355" h="579" zOrder="1">
+      <groupChildrenDescriptors>
+        <control controlID="0D214F9A-2322-4455-98D8-D7F6F999B1FE" controlTypeID="Label" x="10" y="10" w="163" h="43" zOrder="0">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+          <text>Las+Fuentes</text>
+          <textSize>32</textSize>
+          <lineSpacing>0</lineSpacing>
+          <useDefaultTextSize>False</useDefaultTextSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="1B880D5C-1E54-4B75-AD1E-83719695AC68" controlTypeID="Image" x="6" y="66" w="344" h="184" zOrder="1">
+          <URL>6E2DFB0245220F4B1854AC944CCCF3A5.jpg</URL>
+        </control>
+        <control controlID="E965EE7E-4072-4368-8743-34EDD4228FA8" controlTypeID="Accordion" x="8" y="257" w="340" h="151" zOrder="2">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+          <text>Conectividad%3A%0D%0A-+Indicadores+de+tr%C3%A1fico+y+movilidad%0D%0A-+Aparcamientos+P%C3%BAblicos%0D%0A-+Estaciones+y+uso+bizi%0D%0A-+Zonas+de+estacionamiento+regulado+%0D%0ADemograf%C3%ADa%3A%0D%0A-+Infancia+y+Juventud%0D%0A-+Distribuci%C3%B3n+de+la+poblaci%C3%B3n%0D%0A-+Estructura+de+edad%0D%0AContaminacion%3A%0D%0A-+Calidad+del+aire%0D%0AEconom%C3%ADa%3A%0D%0A-+Coste+medio+de+la+vivienda%0D%0A-+Renta+media+per+c%C3%A1pita%0D%0ACultura+y+Ocio%3A%0D%0A-+Museos%0D%0A-+Equipamientos+culturales%2C+deportivos%2C+educativos+(colegios%2C+institutos%E2%80%A6)%2C+servicios+sociales%E2%80%A6%0D%0A-+Centros+de+salud%0D%0A-+Farmacias</text>
+          <textSize>14</textSize>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+          <selectedColor>4291552767</selectedColor>
+        </control>
+        <control controlID="B99CB0BD-95FB-439E-9E83-A9AB47EA5794" controlTypeID="TextInput" x="8" y="447" w="299" h="35" zOrder="3">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+          <placeHolder>Introduce+tu+valoraci%C3%B3n</placeHolder>
+        </control>
+        <control controlID="91CFB2C0-0EC2-481F-8F40-8EDD9B31CA81" controlTypeID="TextArea" x="835" y="475" w="240" h="66" zOrder="4">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+          <text>Introduce+tu+valoraci%C3%B3n</text>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="852304D3-F7E3-4A43-A616-7E7D801365F0" controlTypeID="TextInput" x="317" y="447" w="31" h="35" zOrder="5">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+          <textAlign>HaRight</textAlign>
+          <lineSpacing>0</lineSpacing>
+          <selectedIndex>-1</selectedIndex>
+          <placeHolder>5</placeHolder>
+          <inputModel>emNumber</inputModel>
+        </control>
+        <control controlID="C0B974F4-6649-429B-A05C-9F540BDD80E8" controlTypeID="List" x="8" y="492" w="299" h="80" zOrder="6">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+          <text>El+barrio+tiene+poca+actividad+nocturna%2C+hay+muchos+yayos%0D%0ABuena+comunicaci%C3%B3n+con+el+centro%0D%0ATercer+comentario</text>
+          <textSize>14</textSize>
+          <lineSpacing>0</lineSpacing>
+          <useDefaultTextSize>False</useDefaultTextSize>
+          <selectedColor>4294967295</selectedColor>
+          <itemHeight>40</itemHeight>
+          <showSeparator>True</showSeparator>
+        </control>
+        <control controlID="117E893B-7A2E-4271-A178-9554A5098C2F" controlTypeID="Label" x="8" y="416" w="235" h="22" zOrder="7">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+          <text>Valoraci%C3%B3n+media+de+los+usuarios%3A</text>
+          <textSize>16</textSize>
+          <lineSpacing>0</lineSpacing>
+          <useDefaultTextSize>False</useDefaultTextSize>
+          <selectedIndex>-1</selectedIndex>
+        </control>
+        <control controlID="F3EF85B2-6BED-4701-B2AA-1C4A27A4A465" controlTypeID="Icon" x="253" y="419" w="18" h="18" zOrder="8">
+          <icon>
+            <ID>Star.png</ID>
+            <iconFontName/>
+            <iconCode>-1</iconCode>
+          </icon>
+          <URL>DD947F950DDE83858F16C4922947CC2E.png</URL>
+        </control>
+        <control controlID="7CD6AD96-CFC1-461D-8F4D-C0864F609FAD" controlTypeID="Icon" x="271" y="419" w="18" h="18" zOrder="9">
+          <icon>
+            <ID>Star.png</ID>
+            <iconFontName/>
+            <iconCode>-1</iconCode>
+          </icon>
+          <URL>DD947F950DDE83858F16C4922947CC2E.png</URL>
+        </control>
+        <control controlID="DA110FA4-F451-47A0-BCB8-0E803F7B0245" controlTypeID="Icon" x="289" y="419" w="18" h="18" zOrder="10">
+          <icon>
+            <ID>Star.png</ID>
+            <iconFontName/>
+            <iconCode>-1</iconCode>
+          </icon>
+          <URL>DD947F950DDE83858F16C4922947CC2E.png</URL>
+        </control>
+        <control controlID="D5B687E4-1158-4C98-A5D0-8F8A5980AA89" controlTypeID="Icon" x="269" y="20" w="24" h="24" zOrder="11">
+          <icon>
+            <ID>Star.png</ID>
+            <iconFontName/>
+            <iconCode>-1</iconCode>
+          </icon>
+          <URL>DD947F950DDE83858F16C4922947CC2E.png</URL>
+        </control>
+        <control controlID="80995B46-D2C8-4562-923A-FC0131BC02C2" controlTypeID="Icon" x="293" y="20" w="24" h="24" zOrder="12">
+          <icon>
+            <ID>Star.png</ID>
+            <iconFontName/>
+            <iconCode>-1</iconCode>
+          </icon>
+          <URL>DD947F950DDE83858F16C4922947CC2E.png</URL>
+        </control>
+        <control controlID="BB61E069-4C53-4252-8914-B874B57FC1F6" controlTypeID="Icon" x="317" y="20" w="24" h="24" zOrder="13">
+          <icon>
+            <ID>Star.png</ID>
+            <iconFontName/>
+            <iconCode>-1</iconCode>
+          </icon>
+          <URL>DD947F950DDE83858F16C4922947CC2E.png</URL>
+        </control>
+        <control controlID="03790846-DFDA-4FD2-A56A-A4C27EAAFB24" controlTypeID="Icon" x="221" y="20" w="24" h="24" zOrder="14">
+          <icon>
+            <ID>Star.png</ID>
+            <iconFontName/>
+            <iconCode>-1</iconCode>
+          </icon>
+          <URL>DD947F950DDE83858F16C4922947CC2E.png</URL>
+        </control>
+        <control controlID="453F4B31-BD5B-414D-922C-63332266ECF5" controlTypeID="Icon" x="245" y="20" w="24" h="24" zOrder="15">
+          <icon>
+            <ID>Star.png</ID>
+            <iconFontName/>
+            <iconCode>-1</iconCode>
+          </icon>
+          <URL>DD947F950DDE83858F16C4922947CC2E.png</URL>
+        </control>
+        <control controlID="7E9CB8F0-1841-46EA-8AA4-FB9E06D0BFE0" controlTypeID="Icon" x="305" y="419" w="18" h="18" zOrder="16">
+          <icon>
+            <ID>Star.png</ID>
+            <iconFontName/>
+            <iconCode>-1</iconCode>
+          </icon>
+          <URL>DD947F950DDE83858F16C4922947CC2E.png</URL>
+        </control>
+        <control controlID="DCBDBC9A-2428-4485-A5EF-D4146CFB353F" controlTypeID="Icon" x="323" y="419" w="18" h="18" zOrder="17">
+          <icon>
+            <ID>Star.png</ID>
+            <iconFontName/>
+            <iconCode>-1</iconCode>
+          </icon>
+          <URL>DD947F950DDE83858F16C4922947CC2E.png</URL>
+        </control>
+        <control controlID="74EB555C-F603-4EAC-9E27-83BC22364A25" controlTypeID="Icon" x="318" y="500" w="23" h="23" zOrder="18">
+          <icon>
+            <ID>ThumbsUp.png</ID>
+            <iconFontName/>
+            <iconCode>-1</iconCode>
+          </icon>
+          <URL>BA013BAD16C676B6765098A59E2F44EE.png</URL>
+        </control>
+        <control controlID="4C62D80B-D45E-4803-93C7-99FD4D160718" controlTypeID="Icon" x="318" y="536" w="23" h="23" zOrder="19">
+          <icon>
+            <ID>ThumbsUp.png</ID>
+            <iconFontName/>
+            <iconCode>-1</iconCode>
+          </icon>
+          <URL>BA013BAD16C676B6765098A59E2F44EE.png</URL>
+        </control>
+        <control controlID="E6B4C5D6-99A2-484A-BED4-9B49818F8456" controlTypeID="Label" x="13" y="51" w="175" h="15" zOrder="20">
+          <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+          <text>Visto+129+veces+en+la+%C3%BAltima+semana</text>
+          <textColor>4284900966</textColor>
+          <textSize>11</textSize>
+          <lineSpacing>0</lineSpacing>
+          <useDefaultTextSize>False</useDefaultTextSize>
+        </control>
+        <control controlID="4AE2B140-6AD1-4E67-80DA-5696039B678D" controlTypeID="Border" x="0" y="0" w="355" h="579" zOrder="21">
+          <alias>borderLayer</alias>
+          <thickness>2</thickness>
+        </control>
+      </groupChildrenDescriptors>
+      <thinkness>2</thinkness>
+    </control>
+    <control controlID="71EBF559-D1A6-474E-9DDD-0B12928C2F55" controlTypeID="ScopeBar" x="10" y="599" w="355" h="48" zOrder="2">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+      <text>B%C3%BAsqueda%2CRankings%2CPerfil</text>
+      <textSize>14</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>1</selectedIndex>
+      <selectedColor>4291552767</selectedColor>
+      <thickness>2</thickness>
+    </control>
+    <control controlID="56991986-E917-4E32-9C69-1D822CD7C2B8" controlTypeID="StickyNote" x="410" y="20" w="109" h="209" zOrder="3">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+      <text>Arriba+a+la+derecha+puntuaci%C3%B3n+en+estrellitas+juntando+todos+los+par%C3%A1metros+(incluida+valoraci%C3%B3n)</text>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="AC569DC2-813A-461F-9B59-A57CBF674896" controlTypeID="StickyNote" x="402" y="481" w="179" h="176" zOrder="4">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Normal" weight="400" isBold="False" isItalic="False"/>
+      <text>Saldr%C3%A1n+ordenados+en+funci%C3%B3n+de+los+m%C3%A1s+%22reaccionados%22%2C+una+reacci%C3%B3n+es+un+like+o+dislike%0D%0AHabr%C3%A1+Like+y+Dislike</text>
+      <textSize>14</textSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4291552767</backgroundColor>
+    <fontSize>14</fontSize>
+    <fontFamily>Segoe+UI</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

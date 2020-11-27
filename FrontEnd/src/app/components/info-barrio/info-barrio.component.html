@@ -1,0 +1,148 @@
+<head>
+</head>
+
+<body>
+	<button mat-icon-button onclick=window.history.back()>
+		<mat-icon id="goBack">arrow_back</mat-icon>
+	</button>
+	<div class="container">
+		<div class="general">
+			<div class="cabecera">
+				<div class="titulo">
+					<div class="nombreBarrio">
+						<h1>{{infoBarrio['name']}}</h1>
+					</div>
+					<div class="conjuntoEstrellas">
+						<h1>
+							<i *ngFor="let estrella of estrellasVacias(numEstrellas)" class="far fa-star"
+								id="estrellasGeneral"></i>
+							<i *ngFor="let estrella of estrellasRellenas(numEstrellas)" class="fas fa-star"
+								id="estrellasGeneral"></i>
+						</h1>
+					</div>
+				</div>
+				<p class="estadistica">Visto {{infoBarrio['numAccess']}} veces por los usuarios</p>
+				<mat-divider></mat-divider>
+				<img src="../../../assets/images/{{infoBarrio['name']}}.jpg" alt="Foto de {{infoBarrio['name']}}">
+			</div>
+			<div class="informacion">
+				<mat-accordion>
+					<mat-expansion-panel *ngFor="let c of categorias">
+						<mat-expansion-panel-header>
+							<mat-panel-title>
+								<span class="nombreCategoria">{{c.nombre}}</span>
+								<span class="estrellasDerecha">
+									<i *ngFor="let estrella of estrellasVacias(c.estrellas)" class="far fa-star"
+										id="estrellasCategorias"></i>
+									<i *ngFor="let estrella of estrellasRellenas(c.estrellas)" class="fas fa-star"
+										id="estrellasCategorias"></i>
+								</span>
+							</mat-panel-title>
+						</mat-expansion-panel-header>
+						<div *ngFor="let a of c.apartados; last as last">
+							<span class="nombreApartado">{{a.nombre}}</span>
+							<span class="textoDerecha">
+								{{a.valor}}
+							</span>
+							<mat-divider *ngIf="!last"></mat-divider>
+						</div>
+					</mat-expansion-panel>
+					<mat-expansion-panel>
+						<mat-expansion-panel-header>
+							<mat-panel-title>
+								<span class="nombreCategoria">Demografía</span>
+							</mat-panel-title>
+						</mat-expansion-panel-header>
+						<div>
+							<span class="nombreApartado">Edad media</span>
+							<span class="textoDerecha">{{catDemografia.edadmedia}} años</span>
+							<mat-divider></mat-divider>
+							<span class="nombreApartado">Población envejecida</span>
+							<span class="textoDerecha">{{catDemografia.poblacionenvejecida}} %</span>
+							<mat-divider></mat-divider>
+							<span class="nombreApartado">Edades de los jóvenes</span>
+							<div class="chart-wrapper">
+								<p>Toca los rangos de edad</p>
+								<canvas baseChart [data]="pieChartData" [labels]="pieChartLabels"
+									[chartType]="pieChartType" [options]="pieChartOptions" [plugins]="pieChartPlugins"
+									[legend]="pieChartLegend">
+								</canvas>
+							</div>
+						</div>
+					</mat-expansion-panel>
+					<mat-expansion-panel>
+						<mat-expansion-panel-header>
+							<mat-panel-title>
+								<span class="nombreCategoria">Valoraciones de los usuarios</span>
+							</mat-panel-title>
+						</mat-expansion-panel-header>
+						<div style="text-align:center">
+							<apx-chart [series]="AchartOptions.series" [chart]="AchartOptions.chart"
+								[xaxis]="AchartOptions.xaxis" [dataLabels]="AchartOptions.dataLabels"
+								[plotOptions]="AchartOptions.plotOptions" [colors]="AchartOptions.colors"></apx-chart>
+						</div>
+					</mat-expansion-panel>
+				</mat-accordion>
+			</div>
+
+			<div class="row">
+				<div class="col-md-auto" style="text-align:center">
+					<h4 class="valorar" *ngIf="myvaluation==-1">Valora el barrio</h4>
+					<h4 class="valorar" *ngIf="myvaluation==1" id="ultimaValoracion">Tu última valoración fue de
+						{{myvaluation}} estrella</h4>
+					<h4 class="valorar" *ngIf="myvaluation!=-1 && myvaluation!=1" id="ultimaValoracion">Tu última
+						valoración
+						fue de
+						{{myvaluation}} estrellas</h4>
+					<ul class="list-inline rating-list" *ngFor="let star of stars" style="display: inline-block">
+						<li id={{star}} (click)="countStar(star)" [ngClass]="{'selected': (star <= myvaluation)}">
+							<i class="fa fa-star"></i>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<app-box-insertar-comentario *ngIf="!estaBaneado && !esAdmin" [idBarrio]=idBarrio>
+			</app-box-insertar-comentario>
+			<h5 *ngIf="estaBaneado == true" class="mensajeBaneado" color="warning">Esta cuenta no puede agregar
+				comentarios,
+				contacte con el administrador</h5>
+			<br>
+			<br>
+			<mat-form-field>
+				<mat-label>Ordenar comentarios por</mat-label>
+				<mat-select [(value)]="ordenarComentarios" id="ordenarPor">
+					<mat-option value="Fecha" (click)="ordenarComentarios='Fecha';refrescarComentarios()">Fecha
+					</mat-option>
+					<mat-option id='ordenarPorLikes' value="Likes"
+						(click)="ordenarComentarios='Likes';refrescarComentarios()">Likes</mat-option>
+				</mat-select>
+			</mat-form-field>
+
+			<div class="conjuntoComentarios">
+				<mat-list class="comentario" role="list" *ngFor="let c of comentarios; last as last">
+					<mat-list-item role="listitem" id="listaComentarios">
+						<app-comentario [nombreUsuario]=c.username [userId]=c.userId [email]=c.email [comentario]=c.text
+							[idComentario]=c.commentId [idBarrio]=idBarrio [esAdmin]=esAdmin></app-comentario>
+						<p id=likes{{c.text}} *ngIf="!esAdmin">{{c.likes}}</p>
+						<div *ngIf="!esAdmin">
+							<button id={{c.text}} mat-icon-button
+								*ngIf="usuarioLikeaComentario(c.likesids); else sinLike"
+								(click)="quitarlike(c.commentId,ordenarComentarios)" color="warn"
+								aria-label="icono con corazon rojo">
+								<mat-icon>favorite</mat-icon>
+							</button>
+						</div>
+						<ng-template #sinLike>
+							<button mat-icon-button id={{c.text}} (click)="like(c.commentId,ordenarComentarios)"
+								color="grey" aria-label="icono con corazon gris">
+								<mat-icon>favorite</mat-icon>
+							</button>
+						</ng-template>
+					</mat-list-item>
+					<mat-divider *ngIf="!last"></mat-divider>
+				</mat-list>
+			</div>
+		</div>
+	</div>
+</body>

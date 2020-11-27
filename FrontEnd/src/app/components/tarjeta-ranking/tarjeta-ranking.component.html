@@ -1,0 +1,25 @@
+<mat-card class="tarjeta" (click)="redirigirInfoBarrio()">
+	<mat-card-header>
+		<mat-card-title>{{infoBarrio.nombre}}</mat-card-title>
+	</mat-card-header>
+	<mat-card-content>
+		<div>
+			<img class="imagen" src="../../../assets/images/{{infoBarrio.nombre}}.jpg"
+				alt="Foto de {{infoBarrio.nombre}}">
+			<!-- <img class="imagen" src="../../../assets/images/La Cartuja Baja.jpg" alt="Foto de {{barrio}}"> -->
+		</div>
+		<div class="caracteristicas">
+			<div class="caracteristica" *ngFor="let c of infoBarrio.categorias">
+				<div>
+					{{c.nombre}}
+				</div>
+				<div class="conjuntoEstrellas">
+					<i *ngFor="let estrella of estrellasRellenas(c.estrellas)" class="fas fa-star"
+						id="estrellasGeneral"></i>
+					<i *ngFor="let estrella of estrellasVacias(c.estrellas)" class="far fa-star"
+						id="estrellasGeneral"></i>
+				</div>
+			</div>
+		</div>
+	</mat-card-content>
+</mat-card>
